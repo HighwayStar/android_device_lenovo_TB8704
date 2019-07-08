@@ -1,14 +1,14 @@
 #
-# system.prop for tb8703
+# system.prop for tb8704
 #
 
 # Audio
 af.fast_track_multiplier=1
 audio_hal.period_size=192
-ro.qc.sdk.audio.fluencetype=fluence
+ro.qc.sdk.audio.fluencetype=none
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
-persist.audio.fluence.speaker=false
+persist.audio.fluence.speaker=true
 audio.offload.buffer.size.kb=64
 audio.offload.min.duration.secs=30
 audio.offload.video=false

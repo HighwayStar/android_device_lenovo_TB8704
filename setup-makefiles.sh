@@ -18,10 +18,10 @@
 
 set -e
 
-DEVICE=TB8703
+DEVICE=TB8704
 VENDOR=lenovo
 
-INITIAL_COPYRIGHT_YEAR=2018
+INITIAL_COPYRIGHT_YEAR=2019
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

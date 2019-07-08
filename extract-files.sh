@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=TB8703
+DEVICE=TB8704
 VENDOR=lenovo
 
 # Load extract_utils and do some sanity checks

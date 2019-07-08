@@ -247,4 +247,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat
 
 # Call the proprietary setup
-$(call inherit-product, vendor/lenovo/TB8703/TB8703-vendor.mk)
+$(call inherit-product, vendor/lenovo/TB8704/TB8704-vendor.mk)

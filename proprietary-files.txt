@@ -404,14 +404,14 @@ vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libuiblur.so
 
-# Graphics firmware TB-8703X
+# Graphics firmware TB-8704X
 etc/firmware/a506_zap.b00:etc/firmware/variant/msm/a506_zap.b00
 etc/firmware/a506_zap.b01:etc/firmware/variant/msm/a506_zap.b01
 etc/firmware/a506_zap.b02:etc/firmware/variant/msm/a506_zap.b02
 etc/firmware/a506_zap.elf:etc/firmware/variant/msm/a506_zap.elf
 etc/firmware/a506_zap.mdt:etc/firmware/variant/msm/a506_zap.mdt
 
-# Graphics firmware TB-8703F
+# Graphics firmware TB-8704F
 etc/firmware/a506_zap.b00:etc/firmware/variant/apq/a506_zap.b00
 etc/firmware/a506_zap.b01:etc/firmware/variant/apq/a506_zap.b01
 etc/firmware/a506_zap.b02:etc/firmware/variant/apq/a506_zap.b02
