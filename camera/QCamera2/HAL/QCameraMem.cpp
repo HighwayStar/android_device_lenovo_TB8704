@@ -44,7 +44,6 @@
 #include "QCameraTrace.h"
 
 // Media dependencies
-#include "OMX_QCOMExtns.h"
 #ifdef USE_MEDIA_EXTENSIONS
 #include <media/hardware/HardwareAPI.h>
 typedef struct VideoNativeHandleMetadata media_metadata_buffer;
@@ -1289,7 +1288,7 @@ QCameraVideoMemory::QCameraVideoMemory(camera_request_memory memory,
     mMetaBufCount = 0;
     mBufType = bufType;
     //Set Default color conversion format
-    mUsage = private_handle_t::PRIV_FLAGS_ITU_R_709;
+    mUsage = private_handle_t::PRIV_FLAGS_ITU_R_601_FR;
 
     //Set Default frame format
     mFormat = OMX_COLOR_FormatYUV420SemiPlanar;
@@ -1806,6 +1805,7 @@ QCameraGrallocMemory::QCameraGrallocMemory(camera_request_memory memory)
         mLocalFlag[i] = BUFFER_NOT_OWNED;
         mPrivateHandle[i] = NULL;
         mBufferStatus[i] = STATUS_IDLE;
+        mCameraMemory[i] = NULL;
     }
 }
 
