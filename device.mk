@@ -219,11 +219,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     $(LOCAL_PATH)/sensors/hals.conf:system/etc/sensors/hals.conf
 
-# Shim
-PRODUCT_PACKAGES += \
-    libshims_camera
-
-
 # WiFi
 PRODUCT_PACKAGES += \
     libqsap_sdk \
