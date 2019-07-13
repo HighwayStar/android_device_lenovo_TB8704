@@ -380,6 +380,33 @@ vendor/lib64/libssd.so
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
 
+# Fingerprint
+bin/gx_fpd
+lib64/hw/fingerprint.default.so
+lib64/hw/gxfingerprint.default.so
+lib64/libfp_client.so
+lib64/libfpservice.so
+
+# TB-8704X Fingerprint firmware
+etc/firmware/goodixfp.b00:etc/firmware/variant/msm/goodixfp.b00
+etc/firmware/goodixfp.b01:etc/firmware/variant/msm/goodixfp.b01
+etc/firmware/goodixfp.b02:etc/firmware/variant/msm/goodixfp.b02
+etc/firmware/goodixfp.b03:etc/firmware/variant/msm/goodixfp.b03
+etc/firmware/goodixfp.b04:etc/firmware/variant/msm/goodixfp.b04
+etc/firmware/goodixfp.b05:etc/firmware/variant/msm/goodixfp.b05
+etc/firmware/goodixfp.b06:etc/firmware/variant/msm/goodixfp.b06
+etc/firmware/goodixfp.mdt:etc/firmware/variant/msm/goodixfp.mdt
+
+# TB-8704F Fingerprint firmware
+etc/firmware/goodixfp.b00:etc/firmware/variant/apq/goodixfp.b00
+etc/firmware/goodixfp.b01:etc/firmware/variant/apq/goodixfp.b01
+etc/firmware/goodixfp.b02:etc/firmware/variant/apq/goodixfp.b02
+etc/firmware/goodixfp.b03:etc/firmware/variant/apq/goodixfp.b03
+etc/firmware/goodixfp.b04:etc/firmware/variant/apq/goodixfp.b04
+etc/firmware/goodixfp.b05:etc/firmware/variant/apq/goodixfp.b05
+etc/firmware/goodixfp.b06:etc/firmware/variant/apq/goodixfp.b06
+etc/firmware/goodixfp.mdt:etc/firmware/variant/apq/goodixfp.mdt
+
 # GPS
 bin/loc_launcher
 bin/lowi-server
